@@ -1,0 +1,87 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# ===============================
+# Environment variables (SECRET)
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# FastAPI / runtime temp files
+# ===============================
+audio_tmp/
+audio_cache/
+tmp/
+*.wav
+*.mp3
+*.flac
+
+# ===============================
+# ML / Model artifacts
+# ===============================
+pretrained_models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# (Keep ONNX model — REQUIRED for deploy)
+# DO NOT ignore:
+# ecapa_embedding.onnx
+
+# ===============================
+# HuggingFace / Torch caches
+# ===============================
+.cache/
+.huggingface/
+torch_cache/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Editors / IDEs
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Testing
+# ===============================
+.pytest_cache/
+coverage/
+htmlcov/
+
+# ===============================
+# Docker (if you ever re-add)
+# ===============================
+docker-compose.yml
+*.tar
+
+# ===============================
+# Railway local state
+# ===============================
+.railway/

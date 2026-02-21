@@ -1,0 +1,24 @@
+# Python env
+venv/
+.env
+
+# caches
+.cache/
+__pycache__/
+
+# audio runtime
+audio_tmp/
+audio_cache/
+tmp/
+*.wav
+
+# models not needed for upload
+pretrained_models/
+*.pt
+*.ckpt
+
+# git
+.git/
+
+# OS junk
+*.log

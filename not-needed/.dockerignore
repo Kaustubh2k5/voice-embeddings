@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+.git
+.env
+
+# audio + temp
+audio_cache/
+audio_tmp/
+*.wav
+*.mp3
+*.ogg
+
+# ML caches
+.cache/
+pretrained_models/
+
+# OS junk
+.DS_Store

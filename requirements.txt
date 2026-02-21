@@ -1,0 +1,19 @@
+fastapi==0.101.1
+uvicorn[standard]==0.22.0
+
+# ONNX inference
+onnxruntime==1.24.2
+numpy==1.26.2
+
+# audio processing
+librosa==0.11.0
+pydub==0.25.1
+soundfile==0.12.1
+
+# supabase
+supabase==2.27.2
+requests==2.31.0
+
+# env + uploads
+python-dotenv==1.2.1
+python-multipart==0.0.6docker
